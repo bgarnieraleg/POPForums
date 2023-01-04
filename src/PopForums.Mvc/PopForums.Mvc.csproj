@@ -20,11 +20,11 @@
 
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
-		<PackageReference Include="Microsoft.TypeScript.MSBuild" Version="4.8.4">
+		<PackageReference Include="Microsoft.TypeScript.MSBuild">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="PopIdentity" Version="3.0.0" />
+		<PackageReference Include="PopIdentity" />
 		<ProjectReference Include="..\PopForums\PopForums.csproj" />
 	</ItemGroup>
 

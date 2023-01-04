@@ -19,16 +19,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="MailKit" Version="3.4.1" />
-		<PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="6.0.1" />
-		<PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
-		<PackageReference Include="SixLabors.ImageSharp" Version="2.1.3" />
-		<PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1" />
-		<PackageReference Include="System.Threading.Thread" Version="4.3.0" />
-		<PackageReference Include="System.Security.Claims" Version="4.3.0" />
+		<PackageReference Include="MailKit" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" />
+		<PackageReference Include="Microsoft.Extensions.Logging" />
+		<PackageReference Include="SixLabors.ImageSharp" />
+		<PackageReference Include="System.Security.Cryptography.Algorithms" />
+		<PackageReference Include="System.Threading.Thread" />
+		<PackageReference Include="System.Security.Claims" />
 	</ItemGroup>
 
 	<ItemGroup>

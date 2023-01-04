@@ -23,10 +23,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Dapper" Version="2.0.123" />
-		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
-		<PackageReference Include="System.Data.Common" Version="4.3.0" />
+		<PackageReference Include="Dapper" />
+		<PackageReference Include="Microsoft.Data.SqlClient" />
+		<PackageReference Include="Microsoft.Extensions.Caching.Memory" />
+		<PackageReference Include="System.Data.Common" />
 	</ItemGroup>
 
 </Project>
