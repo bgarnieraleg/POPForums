@@ -1,4 +1,6 @@
-﻿namespace PopForums.Configuration;
+﻿using System.Diagnostics;
+
+namespace PopForums.Configuration;
 
 public class ConfigLoader
 {
