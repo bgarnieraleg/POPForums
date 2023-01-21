@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  popforums.web:
+    image: ${DOCKER_REGISTRY-}popforumsweb
+    build:
+      context: .
+      dockerfile: src\PopForums.Web\Dockerfile
+    dns: 8.8.8.8

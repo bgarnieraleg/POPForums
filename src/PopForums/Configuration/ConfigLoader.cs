@@ -1,4 +1,6 @@
-﻿namespace PopForums.Configuration;
+﻿using System.Diagnostics;
+
+namespace PopForums.Configuration;
 
 public class ConfigLoader
 {
@@ -6,6 +8,10 @@ public class ConfigLoader
 	{
 		var container = new ConfigContainer();
 		container.DatabaseConnectionString = configuration["PopForums:Database:ConnectionString"];
+		Debug.Write("Here");
+		Debug.Write(container.DatabaseConnectionString);
+		Console.WriteLine("Console....");
+		Console.WriteLine(container.DatabaseConnectionString);
 		var cacheSeconds = configuration["PopForums:Cache:Seconds"];
 		container.CacheSeconds = cacheSeconds == null ? 90 : Convert.ToInt32(cacheSeconds);
 		container.CacheConnectionString = configuration["PopForums:Cache:ConnectionString"];
