@@ -1,4 +1,12 @@
-﻿#ForumContainer h1 .icon {
+﻿@import url('https://use.typekit.net/vux2csy.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+
+:root {
+	--bs-primary-rgb: 0, 48, 135;
+	--bs-link-color: #003087;
+}
+
+#ForumContainer h1 .icon {
 	font-size: .8em;
 }
 
@@ -185,8 +193,8 @@ pf-votecount span {
 
 
 :root {
-	--bs-light-rgb: 240, 240, 240;
-	--bs-light: #f0f0f0;
+	--bs-light-rgb: 250, 250, 250;
+	--bs-light: #fafafa;
 }
 .alert-light {
     --bs-alert-bg: #f0f0f0;
@@ -563,4 +571,44 @@ pf-votecount span {
 
 #ForumContainer #Profile div.row div {
 	padding:.5em;
+}
+
+/* Custom styles */
+
+.dropdown-menu {
+	--bs-dropdown-border-color: #003087 !important;
+	--bs-dropdown-divider-bg: #003087 !important;
+}
+
+.btn-primary {
+	--bs-btn-hover-bg: rgba(0, 48, 135, .85);
+	--bs-btn-hover-border-color: rgba(0, 48, 135, .85);
+}
+
+body {
+	font-family: 'neue-haas-grotesk-display';
+	height: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.btn {
+	background-color: #003087;
+	padding: 0.85rem 1.25rem 0.75rem;
+	color: #fff;
+	border-radius: 0.4rem;
+	border-color: #003087;
+}
+
+.navbar-brand {
+	width: 145px;
+}
+
+.navbar-brand svg{
+	width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+	.navbar-brand {
+		width: 254px;
+	}
 }
