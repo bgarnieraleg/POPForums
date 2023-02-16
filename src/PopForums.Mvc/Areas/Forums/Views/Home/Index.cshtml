@@ -10,7 +10,7 @@
 	<link rel="sitemap" href="@ViewBag.SitemapUrl" type="application/xml" />
 }
 
-<h1>@Model.ForumTitle</h1>
+<h1 class="forum-title">@Model.ForumTitle</h1>
 
 @if (user != null)
 {
@@ -22,7 +22,7 @@
 	</form>
 }
 
-<table class="table mt-3">
+<table class="table mt-5 mb-5">
 	<tbody>
 	@foreach (var forum in Model.UncategorizedForums)
 	{
@@ -61,7 +61,7 @@
 
 <pf-homeupdater></pf-homeupdater>
 
-<div>
+<div class="users-online">
 	<h3>@PopForums.Resources.UsersOnline</h3>
 	<p>
 		@PopForums.Resources.Total: @ViewBag.TotalUsers@foreach (var u in (List<PopForums.Models.User>)ViewBag.OnlineUsers)
