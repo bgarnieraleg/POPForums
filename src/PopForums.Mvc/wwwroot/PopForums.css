@@ -265,6 +265,10 @@ pf-votecount span {
     color: #003087;
 }
 
+#AccountBox .icon-bell-fill:before{
+    color: unset;
+}
+
 .icon-bell:before {
     content: "\e903";
 }
@@ -279,6 +283,7 @@ pf-votecount span {
 
 .icon-twitter:before {
     content: "\e906";
+    color: #003087;
 }
 
 .icon-quote:before {
@@ -367,6 +372,7 @@ pf-votecount span {
 
 .icon-facebook:before {
     content: "\e91c";
+    color: #003087;
 }
 
 .icon-file-earmark-text:before {
@@ -440,6 +446,7 @@ pf-votecount span {
 
 .icon-instagram:before {
     content: "\e92e";
+    color: #003087;
 }
 
 .icon-lock:before {
@@ -596,6 +603,7 @@ pf-votecount span {
 }
 
 .btn-primary,
+.btn-secondary,
 .btn-warning {
     --bs-btn-hover-bg: rgba(0, 48, 135, 0.85);
     --bs-btn-hover-border-color: rgba(0, 48, 135, 0.85);
@@ -610,6 +618,8 @@ pf-votecount span {
 .btn {
     border-radius: 0 !important;
 }
+
+/* Globals */
 
 body {
     font-family: "neue-haas-grotesk-display";
@@ -628,7 +638,27 @@ body:before {
     width: 100%;
     height: 100%;
     z-index: -1;
-    /* pattern */
+}
+
+.rounded{
+    border-radius: 0 !important;
+}
+
+h1{
+    margin-bottom: 3rem;
+}
+
+h2, h3{
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4{
+    font-weight: 600;
+    color: #003087;
+}
+
+hr{
+    border-color: #003087;
 }
 
 .btn {
@@ -671,6 +701,113 @@ body:before {
     margin-top: 0 !important;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+
+/* Nav Tabs */
+
+.nav-tabs{
+    margin-bottom: 2rem;
+}
+
+.nav-tabs .nav-item a{
+    font-weight: 600;
+}
+
+.nav-tabs .nav-item a:hover{
+    border-radius: 0;
+}
+
+.nav-tabs .nav-item a.active{
+    border-radius: 0;
+    background-color: #003087;
+    color: #fff;
+}
+
+/* Activity feed */
+
+#ActivityFeed .alert-light{
+    background-color: #003087;
+}
+
+#ActivityFeed .alert-light div{
+    color: #fff;
+}
+
+#ActivityFeed .alert-light a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Topic List */
+
+#TopicList .icon-file-earmark-text:before{
+    color: #003087;
+}
+
+#TopicList .text-warning.icon-bell-fill:before {
+    content: "\e902";
+    color: #D41543;
+}
+
+/* Top Breadcrumb */
+
+#TopBreadcrumb.breadcrumb{
+    background-color: #003087;
+}
+
+#TopBreadcrumb.breadcrumb li{
+    color: #fff;
+}
+
+#TopBreadcrumb.breadcrumb li a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+#TopBreadcrumb.breadcrumb li .dropdown-item:hover{
+    background-color: #003087;
+    text-decoration: none;
+}
+
+#TopBreadcrumb.breadcrumb .breadcrumb-item + .breadcrumb-item::before{
+    color: #fff;
+}
+
+/* Post Item */
+
+.postItem{
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+/* Forms */
+
+.form-control,
+.form-select,
+.form-check-input[type=checkbox],
+.input-group-text,
+.tox.tox-tinymce{
+    border-radius: 0 !important;
+}
+
+.form-check-input[type=checkbox]{
+    margin-right: 1rem;
+}
+
+.form-check-input:checked{
+    background-color: #003087;
+    border-color: #003087;
+}
+
+.postForm .tox-tinymce{
+    border-radius: 0 !important;
+}
+
+/* App */
+#app{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 @media only screen and (min-width: 992px) {
